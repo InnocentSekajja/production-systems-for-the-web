@@ -8,7 +8,7 @@ h1.bigger {
 
 /* Just for testing! Remove this later. */
 div {
-	border: 1px solid green;
+	border: 1px solid white;
 }
 /* end testing */
 
@@ -19,22 +19,34 @@ div {
 }
 
 /* this has the logo and menu in it */
-#header {
-	height: 140px;
+.header {
+    background-color: black;
+	height: 180px;
+    width: 1000px;
 }
 
-#left-col {
-	width: 800px;
+.left-col {
+	width: 700px;
 	float:left;
 }
-#right-col {
-	width:160px;
+.right-col {
+	width:274px;
 	float:right;
+}
+.video {
+	width:560px;
+    height:315px; 
+	float:left;
 }
 
 .row {
+    background-color: black;
 	clear:both;
 }
+
+img{
+    max-width: 100%;
+    max-height: 100%;
 
 .menu-item {
 	background: black;
@@ -48,3 +60,4 @@ div {
 	margin-bottom: 16px;
 	border: none;
 }
+
