@@ -1,15 +1,24 @@
 .header {
-    width: 56%
+    width: 39%
 }
 .left-col {
-	width: 100%
+	width: 47%:
 }
 .right-col {
-	width: 50%
+	width: 100%
 }
 .row {
-    width: 50%
+    width: 39%
 }
-.video {
-	width:200%
-}
+h1 {
+    font-size: 56%
+        }
+iframe {
+    width: 70%
+        }
+.body-text {
+    width: 69%
+        }
+.highlighted {
+    width: 39%
+        }
